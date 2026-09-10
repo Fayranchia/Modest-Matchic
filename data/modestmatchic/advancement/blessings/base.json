@@ -1,0 +1,28 @@
+{
+    "parent": "modestmatchic:blessings/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book"
+        },
+        "title": {"translate": "adv.modestmatchic.base.title"},
+        "description": {"translate": "adv.modestmatchic.base.description"},
+        "frame": "task"
+    },
+    "criteria": {
+        "make_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:enchanted_book"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "make_book"
+        ]
+    ]
+}

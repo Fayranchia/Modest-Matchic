@@ -1,0 +1,73 @@
+{
+    "pack": {
+        "description": "Replace Matcha Flavoured's enchanted books crafting with Modest Magic's Infusing mechanics!",
+        "min_format": 107,
+        "max_format": 107  
+    },
+    "filter": {
+    "block": [
+        {
+            "namespace": "modestmagic",
+            "path": "recipe/enchanting/curse_of_binding.json"
+        },
+        {
+            "namespace": "modestmagic",
+            "path": "recipe/enchanting/curse_of_vanishing.json"
+        },
+        {
+            "namespace": "modestmagic",
+            "path": "recipe/infusing/.*"
+        },
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_aquatic.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_cyclic.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_enduring.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_everlasting.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_fiery.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_flinging.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_glacial.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_hallowed.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_haunted.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_heavy.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_infested.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_light.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_lucky.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_puncturing.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_recollection.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_secure.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_serrated.json"},
+        {"namespace": "modestmagic", "path": "recipe/smithing/enchantment_tablet_swift.json"},
+        {
+            "namespace": "modestmagic",
+            "path": "recipe/enchantment_tablet.json"
+        },
+        {
+            "namespace": "modestmagic",
+            "path": "recipe/stardust.json"
+        },
+        {"namespace": "matcha", "path": "recipe/blessings/bane_of_arthopods.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/channeling_smite.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/density_knockback_punch.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/depth_strider_riptide_aqua_affinity_respiration.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/efficiency_unbreaking.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/feather_falling.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/flame_fire_aspect_fire_protection.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/frost_walker_frost_protection.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/hell_bound_book.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/infinity.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/looting_fortune.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/lunge_breach.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/lure_luck_of_the_sea.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/mending.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/piercing_impaling.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/power_multishot.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/reach.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/silk_touch.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/swift_sneak_soul_speed.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/traversal.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/unbreaking.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/warding.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/wind_burst_anemos.json"},
+        {"namespace": "matcha", "path": "recipe/blessings/zephyr.json"}
+        ]
+    }
+}

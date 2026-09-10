@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:disc_fragment_5",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:impaling": 3,
+				"minecraft:piercing": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.apollo",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_apollo"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

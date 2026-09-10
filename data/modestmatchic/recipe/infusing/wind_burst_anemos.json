@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:gold_block"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:anemos": 1,
+				"minecraft:wind_burst": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.aeolus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_aeolus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

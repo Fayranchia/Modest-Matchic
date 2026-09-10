@@ -1,0 +1,36 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:fire_charge",
+    "minecraft:fire_charge",
+    "minecraft:fire_charge",
+    "minecraft:fire_charge",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:flame": 1,
+				"minecraft:fire_aspect": 1,
+				"minecraft:fire_protection": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.yama",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_yama"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

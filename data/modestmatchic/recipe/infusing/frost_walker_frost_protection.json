@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:golden_hoe",
+    "minecraft:blue_ice",
+    "minecraft:blue_ice",
+    "minecraft:blue_ice",
+    "minecraft:golden_apple",
+    "minecraft:golden_apple",
+    "minecraft:golden_apple",
+    "minecraft:golden_apple"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:frost_walker": 2,
+				"main:freezing_protection": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.demeter",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_demeter"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

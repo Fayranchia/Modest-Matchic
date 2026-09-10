@@ -1,0 +1,34 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:honeycomb",
+    "minecraft:feather",
+    "minecraft:feather",
+    "minecraft:feather",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:feather_falling": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.icarus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_icarus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

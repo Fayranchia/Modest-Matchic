@@ -1,0 +1,36 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice",
+    "minecraft:glistering_melon_slice",
+    "minecraft:prismarine_crystals",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:warding1": 1,
+				"minecraft:smite": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.man",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_warding"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

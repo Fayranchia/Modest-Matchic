@@ -1,0 +1,38 @@
+{
+    "parent": "modestmatchic:blessings/base",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "item_model": "matcha:blessing_arachnae"
+            }
+        },
+        "title": {
+            "translate": "item.kleispack.blessing.arachnae"
+        },
+        "description": {
+            "translate": "adv.modestmatchic.arachnae.description"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "make_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:enchanted_book",
+                        "components": {
+                            "minecraft:item_model": "matcha:blessing_arachnae"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "make_book"
+        ]
+    ]
+}

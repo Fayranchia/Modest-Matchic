@@ -1,0 +1,30 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl",
+    "minecraft:ender_pearl"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:reach": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.will",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_will"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

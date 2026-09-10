@@ -1,0 +1,30 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:spider_eye",
+    "minecraft:spider_eye",
+    "minecraft:spider_eye",
+    "minecraft:spider_eye"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:bane_of_arthropods": 5
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.arachnae",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_arachnae"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:resin_brick",
+    "minecraft:iron_block",
+    "minecraft:iron_block",
+    "minecraft:iron_block",
+    "minecraft:iron_block",
+    "minecraft:iron_block",
+    "minecraft:iron_block",
+    "minecraft:iron_block"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:density": 2,
+				"minecraft:knockback": 2,
+				"minecraft:punch": 2
+			},
+			"minecraft:rarity": "rare",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.talos",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_talos"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

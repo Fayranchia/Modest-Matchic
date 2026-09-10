@@ -1,0 +1,31 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:shield",
+    "minecraft:red_dye",
+    "minecraft:iron_helmet",
+    ["minecraft:iron_sword","minecraft:iron_spear"]
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:lunge": 2,
+				"minecraft:breach": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.ares",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_ares"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:shulker_shell",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:arrow",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:silk_touch": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.eros",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_eros"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

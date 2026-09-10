@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "modestmagic:altar"
+    },
+    "title": {
+      "translate": "adv.modestmatchic.root",
+      "fallback": "With Blessings"
+    },
+    "description": "",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "background": "minecraft:block/obsidian"
+  },
+  "criteria": {
+    "get_stablised_estus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_stablised_estus"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:nether_star",
+    "minecraft:diamond_block",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:mending": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:rarity": "epic",
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.lu_ban",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_lu_ban"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

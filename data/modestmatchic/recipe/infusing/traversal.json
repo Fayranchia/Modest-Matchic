@@ -1,0 +1,31 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:emerald",
+    "minecraft:emerald",
+    "#minecraft:wool",
+    "#minecraft:wool",
+    "minecraft:leather_boots"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:traversal": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.clement",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_clement"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

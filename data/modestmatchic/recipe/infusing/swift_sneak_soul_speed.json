@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:echo_shard",
+    "minecraft:echo_shard",
+    "minecraft:echo_shard",
+    "minecraft:iron_hoe",
+    "minecraft:sculk",
+    "minecraft:sculk",
+    "minecraft:sculk",
+    "minecraft:sculk"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:swift_sneak": 2,
+				"minecraft:soul_speed": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.cronus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_cronus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

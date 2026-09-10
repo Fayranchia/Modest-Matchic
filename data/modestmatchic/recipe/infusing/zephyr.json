@@ -1,0 +1,34 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:wind_charge",
+    "minecraft:allium",
+    "minecraft:feather",
+    "minecraft:feather",
+    "minecraft:feather"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"main:zephyr": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.hyacinthus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_hyacinthus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

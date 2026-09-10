@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:nether_star",
+    "minecraft:diamond",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_pickaxe",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:efficiency": 3,
+				"minecraft:unbreaking": 3
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.daedalus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_daedalus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

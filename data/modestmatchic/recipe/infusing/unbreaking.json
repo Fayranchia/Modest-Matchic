@@ -1,0 +1,34 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:turtle_scute",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:glowstone_dust",
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:diamond"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:unbreaking": 2
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.prometheus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_prometheus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}

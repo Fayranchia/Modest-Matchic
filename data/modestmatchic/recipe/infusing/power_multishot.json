@@ -1,0 +1,35 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "minecraft:enchanted_book",
+  "ingredients": [
+    "minecraft:prismarine_crystals",
+    "minecraft:porkchop",
+    "minecraft:porkchop",
+    "minecraft:porkchop",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:spectral_arrow"
+  ],
+  "results": [{
+		"components": {
+			"minecraft:stored_enchantments": {
+				"minecraft:power": 2,
+				"minecraft:multishot": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.artemis",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_artemis"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}]
+}
