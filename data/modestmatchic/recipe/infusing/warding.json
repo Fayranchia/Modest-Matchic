@@ -14,7 +14,7 @@
   "results": [{
 		"components": {
 			"minecraft:stored_enchantments": {
-				"main:warding1": 1,
+				"matcha:warding1": 1,
 				"minecraft:smite": 2
 			},
 			"minecraft:rarity": "rare",

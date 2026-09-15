@@ -10,7 +10,7 @@
   "results": [{
 		"components": {
 			"minecraft:stored_enchantments": {
-				"main:reach": 1
+				"matcha:reach": 1
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"

@@ -11,7 +11,7 @@
   "results": [{
 		"components": {
 			"minecraft:stored_enchantments": {
-				"main:traversal": 3
+				"matcha:traversal": 3
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.blessing"
